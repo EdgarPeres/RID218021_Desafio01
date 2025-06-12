@@ -1,0 +1,109 @@
+/*Estilização Global Padrão*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/*Estilização do Header*/
+.main-header {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #303030;
+  width: 100%;
+  height: 55vh;
+}
+
+.text-header {
+  padding-left: 4rem;
+}
+.text-header h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.text-header p {
+  font-size: 1.1rem;
+}
+
+/*Estilização das Metricas*/
+.metrics-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 25vh;
+}
+
+/*Estilização da Secao Principal*/
+.main-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.main-text {
+  text-align: justify;
+}
+.main-text p {
+  font-size: 1.3rem;
+  font-weight: 250;
+}
+
+.main-image {
+  width: 40%;
+}
+
+/*Estilização do Rodape e formulario*/
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #303030;
+  width: 100%;
+  height: 70vh;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 35%;
+  margin-top: 3rem;
+}
+.form-section input {
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  width: 100%;
+  height: 5vh;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.primary-button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
+  width: 50%;
+  background-color: #c07212;
+  border-style: none;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.primary-button:hover {
+  transition: 0.4s;
+  background-color: #ff8c00;
+  box-shadow: 0 12px 16px 0 rgba(255, 197, 8, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
